@@ -3,7 +3,6 @@ class Solution:
         numlist = {}
         for i, item in enumerate(nums):
             diff = target - item
-            print(diff)
             if diff in numlist:
                 return [numlist[diff], i]
             else:
